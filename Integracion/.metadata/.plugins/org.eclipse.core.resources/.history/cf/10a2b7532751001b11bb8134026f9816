@@ -1,0 +1,13 @@
+package ar.herencia;
+
+public class Mouse {
+	
+	public static void clickIzquierdo() {
+		System.out.println("Click!");
+	}
+	
+	public static void clickDerecho() {
+		System.out.println("Click!");
+	}
+
+}

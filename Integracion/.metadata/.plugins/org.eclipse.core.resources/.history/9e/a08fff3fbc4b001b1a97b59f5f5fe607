@@ -1,0 +1,22 @@
+package ar.clases.integracion;
+
+public class Persona {
+	
+	private String nombre;
+	private Integer peso;
+	private Mano manoIzq, manoDer;
+	
+	public Persona(String nombre, Integer peso, Integer manoIzq, Integer manoDer) {
+		this.nombre = nombre;
+		this.peso = peso;
+		this.manoIzq = new Mano(manoIzq);
+		this.manoDer = new Mano(manoDer);
+	}
+	
+
+	@Override
+	public String toString() {
+		return "La persona se llama " + nombre + " y pesa " + peso;
+	}
+
+}

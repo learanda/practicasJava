@@ -1,0 +1,19 @@
+package ar.linkedlist;
+
+import java.util.LinkedList;
+
+public class Linky {
+
+	public static void main(String[] args) {
+		
+		LinkedList linky = new LinkedList();
+		
+		linky.add("Lan");
+		linky.add("Boris");
+		linky.add("Hercu");
+		
+		System.out.println(linky);
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package ar.clases.integracion;
+
+public class Superheroe extends Persona{
+	
+	private String apodo;
+
+	public Superheroe(String nombre, Integer peso, Integer manoIzq, Integer manoDer, String apodo) {
+		super(nombre, peso, manoIzq, manoDer);
+		this.apodo = apodo;
+	}
+
+	
+	@Override
+	public String toString() {
+		return "La persona se llama " + getNombre() + " y pesa " + getPeso() + " KG";
+	}
+	
+
+}

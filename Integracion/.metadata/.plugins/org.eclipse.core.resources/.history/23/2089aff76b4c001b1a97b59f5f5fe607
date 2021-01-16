@@ -1,9 +1,0 @@
-package ar.clases.integracion;
-
-public interface Acciones {
-	
-	void atacar();
-	void defender();
-	void saludar(String nombre);
-
-}

@@ -1,7 +1,0 @@
-package ar.herencia;
-
-public class Mouse3 {
-	
-	boolean ambidiestro = true;
-
-}

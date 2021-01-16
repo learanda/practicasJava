@@ -1,9 +1,0 @@
-package ar.herencia;
-
-public class Mouse2 {
-	
-	public static void conectar() {
-		System.out.println("conectado!");
-	}
-
-}
